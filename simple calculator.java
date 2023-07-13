@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         char choice;
-        int num1, num2;
+        float num1, num2;
 
         do {
             System.out.print(">>Enter the operator[ + - * / ] =>>\t");
@@ -14,28 +14,28 @@ public class Main {
             switch (ch) {
                 case '+':
                     System.out.print("Enter the first number:>>\t");
-                    num1 = sc.nextInt();
+                    num1 = sc.nextFloat();
                     System.out.print("Enter the second number:>>\t");
-                    num2 = sc.nextInt();
-                    int sum = num1 + num2;
+                    num2 = sc.nextFloat();
+                    float sum = num1 + num2;
                     System.out.println("\nSum>> " +num1+" + "+num2+ " =\t" + sum);
                     break;
 
                 case '-':
                     System.out.print("Enter the first number:>>\t");
-                    num1 = sc.nextInt();
+                    num1 = sc.nextFloat();
                     System.out.print("Enter the second number:>>\t");
-                    num2 = sc.nextInt();
-                    int difference = num1 - num2;
+                    num2 = sc.nextFloat();
+                    float difference = num1 - num2;
                     System.out.println("\nDifference>> "+num1+" - "+num2+ " =\t" + difference);
                     break;
 
                 case '*':
                     System.out.print("Enter the first number:>>\t");
-                    num1 = sc.nextInt();
+                    num1 = sc.nextFloat();
                     System.out.print("Enter the second number:>>\t");
-                    num2 = sc.nextInt();
-                    int multi = num1 * num2;
+                    num2 = sc.nextFloat();
+                    float multi = num1 * num2;
                     System.out.println("\nMultiplication>> "+num1+" x "+num2+ " =\t" + multi);
                     break;
 

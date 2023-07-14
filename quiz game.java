@@ -13,7 +13,7 @@ public class Main {
         int count =0;
 
     do{
-        System.out.println("What is the capital of France?\nA. France\nB. Quebec\nC.New York ");
+        System.out.println("What is the capital of France?\nA. Paris\nB. Quebec\nC.New York ");
         choice = sc.next().charAt(0);
         if (choice =='A' || choice=='a'){
             System.out.println("Correct Answer.");
